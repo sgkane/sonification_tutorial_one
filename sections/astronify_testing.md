@@ -1,6 +1,8 @@
+[<<< Previous](introduction_to_astronify.md)
+
 # Testing Astronify
 
-WeP've finally reached the moment you've been waiting for; we're going to make our own sonifications! In particular, we are going to sonify the functions that we made in the previous module to get a sense of what each of them sounds like sonified.
+We've finally reached the moment you've been waiting for—we're going to make our own sonifications! In particular, we are going to sonify the functions that we made in the previous module to get a sense of what each of them sounds like sonified.
 
 ## Step one: Import Astronify
 
@@ -101,3 +103,5 @@ soni_parabola_noise.play()
 ```
 
 Can you still hear the parabola shape in the sonification? Try increasing or decreasing the *scale* parameter in random.normal to change the noisiness of the data and explore how the sonification changes. Is there a point at which the data is too noisy for you to hear the parabola in the sonification?
+
+[<<< Previous](introduction_to_astronify.md)
