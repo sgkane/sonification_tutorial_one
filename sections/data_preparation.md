@@ -1,3 +1,5 @@
+[<<< Previous](intro_to_sonification.md) | [Next >>>](introduction_to_astronify.md)
+
 # Preparing Data for Sonification
 
 In this section, we will make synthetic data to sonify, or represent as sound, using Astronify in the next section. In doing so, we will practice performing math upon arrays and will introduce Astropy Tables. You will frequently hear me refer to "synthetic" or "simulated" data in this section; by these terms, I simply mean that we created the data ourselves and that it is not "real" data that comes from measurements and observations.
@@ -130,3 +132,5 @@ url = 'https://github.com/sgkane/sonification_tutorial_one/blob/main/prepared_da
 df = pd.read_csv(url,index_col=0)
 tbl = Table.from_pandas(df)
 ~~~
+
+[<<< Previous](intro_to_sonification.md) | [Next >>>](introduction_to_astronify.md)
